@@ -1,0 +1,14 @@
+meta:
+  train_ds: ?
+  result: ?
+hparams:
+  lr: 1e-4
+  bs: 32
+  log_freq: 100
+  epoch: 100
+  md_name: bird_img
+model:
+  tdnn: 'tdnn_TN'
+  num_classes: 10
+evaluation:
+  ds: ?
